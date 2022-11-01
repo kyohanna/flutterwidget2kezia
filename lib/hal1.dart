@@ -58,7 +58,7 @@ class _Hal1State extends State<Hal1> {
               ),
             ),
             Container(alignment: Alignment.bottomLeft,margin: EdgeInsets.only(left: 290, top: 700),child: Column(children: [ElevatedButton(onPressed:() {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => Booking())
+              Navigator.push(context, MaterialPageRoute(builder: (context) => Book())
                 );
               },
               child: Text('Daftarkan diri anda sekarang!'),
